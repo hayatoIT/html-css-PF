@@ -1,0 +1,302 @@
+@charset "utf-8";
+
+/* 共通 */
+
+body{
+    color: white;
+    background-color:black;
+    text-align: center;
+    margin-top: 60px;
+}
+
+
+
+
+
+  
+.content{
+    height: 100vh;
+    padding: 0 100px;
+}
+
+.content-title{
+
+    font-size: 2.5rem;
+}
+
+li{
+    list-style: none;
+}
+
+/* header箇所 */
+
+header{
+    width: 100%;
+    height: 60px; /* ヘッダーの高さを指定 */
+    display: flex;
+    align-items: center;
+    position: fixed;
+   
+   
+    
+}
+
+
+
+
+
+.title{
+    color:red;
+
+}
+
+.logo{
+    
+    margin-left: 20px;
+}
+
+.navi{
+    margin-left: auto;
+    
+}
+
+
+
+.main-visual{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    
+}
+
+
+.main-text{
+    position: absolute;
+    top: 30%;
+   
+   
+}
+
+
+  
+
+.header_menu{
+ 
+    list-style: none;
+    display: flex;
+    border: none;
+  border-radius: 5px;
+
+  
+}
+
+
+
+
+
+.menu-item{
+
+    margin-right: 20px;
+    
+}
+
+/* メモ：a は今回menu-itemのなかの<a>タグの文字を当てたかったので指定をしている。 少々チャットGPTを参考にした箇所あり。 */
+
+.menu-item a:hover {
+    color: 	#9E1521; 
+    transition: all 0.3s ease; 
+  }
+
+  .menu-item a {
+    text-decoration: none; 
+    padding: 10px 15px; 
+    display: inline-block; 
+  }
+
+
+
+
+a{
+    color:#ffff;
+}
+
+.catch-cp{
+    font-size: 2rem;
+}
+
+
+/* メイン */
+
+/* なぜか絶対パスでないと画像が表示されない・chatgptのヘルプを借りた↓ */
+.main-image {
+    
+    background-image:url('./img/gun.jpg');
+    width: 100%; 
+    height: 700px; 
+    background-size: cover; 
+    background-position: center; 
+  }
+  
+  
+.main-descripton{
+
+    font-weight:bold;
+    margin-bottom: 90px;
+}
+  
+
+
+/* about箇所 */
+
+
+
+.about{
+    background-color: #666666;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%; 
+    height: 100vh; 
+}
+
+.about_description{
+
+    font-size: 1.5rem;
+    text-align: left;
+    line-height: 1.5;
+    margin-top: 30px;
+   
+}
+
+
+
+
+/* news */
+
+.news-title{
+
+font-size: 1.1rem;
+text-align: center;
+
+
+}
+
+.news-list{
+
+    display: flex;
+    justify-content: center;
+}
+
+.news-img{
+
+    width: 260px;
+    height: 180px;
+    object-fit: cover;
+
+}
+
+
+.news-descripton{
+    text-align: center;
+    font-size: 90%;
+    padding: 5px;
+    
+
+}
+
+
+.news-link{
+font-size: 1.2rem;
+margin-bottom: 60px;
+}
+
+.news-items{
+
+    margin: 50px;
+ 
+   
+
+
+}
+
+
+.content-object{
+    color: red;
+}
+
+
+/* 送信フォーム */
+
+.contact-label{
+
+    font-size: 1.2rem;
+    margin:9px 0;
+    
+    
+
+
+}
+
+
+.contact-ipt{
+
+    width: 100%;
+    background-color:transparent;
+    color: white;
+    border: none;
+    border-bottom: 2px solid white;
+    padding: 7px 0;
+    background-color: black;
+
+}
+
+
+.contact-select{
+
+    width: 100%;
+    background-color:transparent;
+    color: white;
+    border: none;
+    padding: 7px 0;
+    background-color: black;
+
+
+
+}
+
+
+
+.contact-content{
+    text-align: left;
+    margin-inline: auto;
+    max-width: 800px;
+}
+
+
+
+.contact-btn{
+    color: white;
+    background-color:#0099FF;
+    width: 20%;
+    border: 1px solid white;
+    margin-left: 40%;
+    
+}
+
+.contaxt-textarea{
+    border: 2px solid white;
+    box-sizing: border-box;
+}
+
+
+/* footer */
+
+.copy-right{
+
+    background-color: #666666;
+    color: white;
+    padding: 2em 0;
+    margin-top:  6rem;
+}
